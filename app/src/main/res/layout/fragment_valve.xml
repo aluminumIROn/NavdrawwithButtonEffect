@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bodyBackground">
+    android:background="@color/bodyBackground"
+    android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -28,9 +29,11 @@
 
     <ScrollView
 
-        android:layout_width="336dp"
-        android:layout_height="463dp"
-        android:layout_margin="30dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp">
 
 
         <Button
@@ -47,4 +50,4 @@
     </ScrollView>
 
 
-</RelativeLayout>
+</LinearLayout>
